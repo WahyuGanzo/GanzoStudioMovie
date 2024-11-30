@@ -1,0 +1,410 @@
+/* DASAR */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #010100;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: #131312;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* LOGO */
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.ikon:hover {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    box-shadow: 2px 2px 15px #45a049;
+}
+
+.ikon {
+    background-color: #f4c418;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BAR PENCARIAN */
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+#barPencarian  {
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.tombolcari {
+    padding: 12px;
+    background-color: #f4c418;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form input {
+    width: 600px;
+    height: 40px;
+    text-align: center;
+}
+
+tombolcari:hover {
+    background-color: #45a049;
+    transform: scale(0.9) rotate(5deg);
+    -webkit-transform: scale(0.9) rotate(5deg);
+    -moz-transform: scale(0.9) rotate(5deg);
+    -ms-transform: scale(0.9) rotate(5deg);
+    -o-transform: scale(0.9) rotate(5deg);
+}
+
+/* TOMBOL JOIN DISCORD */
+#joindc {
+    background-color: #f4c418;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#joindc:hover {
+    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
+    background-color: #45a049;
+}
+
+#joindc {
+    margin: 0 20px;
+}
+
+/* AREA UTAMA */
+
+#video {
+    display: flex;
+    padding: 10px 0 10px 10px;
+    justify-content: space-evenly;
+    color: white;margin-top: 20px;
+}
+
+.kontenvideo {
+    display: flex;
+    gap: 10px;
+}
+
+.info {
+    display: block;
+    background-color: #333;
+    padding: 5px;
+    width: 400px;
+}
+
+.info p {
+    word-spacing: 4px;
+}
+
+.identitasfilm {
+    display: flex;
+    padding: 10px;
+    align-items: start;
+}
+
+.judulfilm p {
+    margin-top: 5px;
+}
+
+.judulfilm {
+    margin: 10px 0 0 10px;
+}
+
+.poster {
+    width: 120px;
+    padding: 5px;
+}
+
+.deskripsi {
+    padding: 10px;
+    margin: 0 0 0 10px;
+    word-wrap: break-word;
+}
+
+.deskripsi p {
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+/* METADATA */
+#metadata {
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: start;
+}
+
+.storyline {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.storyline p {
+    margin-top: 10px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.storyline span {
+    font-size: 24px;
+    color: #f5c518;
+}
+
+/* GENRE */
+
+.genre {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.genre span {
+    font-size: 24px;
+    color: #f5c518;
+}
+
+.genre p a {
+    text-decoration: none;
+    color: blue;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.genre p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.genre p a:hover {
+    color: #f5c518;
+}
+
+/* DETAILS */
+.details {
+    display: block;
+}
+
+.details {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.details h2 span {
+    font-size: 24px;
+    color: #f5c518;
+}
+
+.isi {
+    margin-top: 10px;
+}
+
+.isi span {
+    color: #f5c518;
+}
+
+.isi p {
+    margin-top: 5px;
+}
+
+@media screen and (width: 320px) {
+    form {
+        display: none;
+    }
+    .ikon h3 {
+        display: none;
+    }
+    .ikon {
+        padding: 5px;
+    }
+    #joindc {
+        margin-right: 0;
+        font-size: 0.6rem;
+    }
+    .kontenvideo {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+    .kontenvideo iframe {
+        width: 300px;
+        height: 170px;
+    }
+    .poster {
+        width: 80px;
+    }
+    .judulfilm h3 {
+        font-size: 0.8rem;
+    }
+    .judulfilm p {
+        font-size: 0.6rem;
+    }
+    .deskripsi h2 {
+        font-size: 1.4rem;
+        word-wrap: break-word;
+    }
+    .deskripsi p {
+        font-size: 0.6rem;
+    }
+    .info {
+        width: 300px;
+        align-content: center;
+    }
+    .storyline {
+        width: 270px;
+    }
+    .storyline p {
+        font-size: 0.7rem;
+        word-wrap: break-word;
+    }
+    .genre {
+        width: 270px;
+    }
+    .genre p {
+        font-size: 0.7rem;
+    }
+    .details p {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (width: 375px) {
+    form {
+        display: none;
+    }
+    .ikon h3 {
+        display: none;
+    }
+    .ikon {
+        padding: 5px;
+    }
+    #joindc {
+        margin-right: 0;
+        font-size: 0.6rem;
+    }
+    .kontenvideo {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+    .kontenvideo iframe {
+        width: 300px;
+        height: 170px;
+    }
+    .poster {
+        width: 80px;
+    }
+    .judulfilm h3 {
+        font-size: 0.8rem;
+    }
+    .judulfilm p {
+        font-size: 0.6rem;
+    }
+    .deskripsi h2 {
+        font-size: 1.4rem;
+        word-wrap: break-word;
+    }
+    .deskripsi p {
+        font-size: 0.6rem;
+    }
+    .info {
+        width: 300px;
+        align-content: center;
+    }
+    .storyline {
+        width: 270px;
+    }
+    .storyline p {
+        font-size: 0.7rem;
+        word-wrap: break-word;
+    }
+    .genre {
+        width: 270px;
+    }
+    .genre p {
+        font-size: 0.7rem;
+    }
+    .details p {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,392 @@
+/* DASAR */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #010100;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: #131312;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* LOGO */
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.ikon:hover {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    box-shadow: 2px 2px 15px #45a049;
+}
+
+.ikon {
+    background-color: #f4c418;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BAR PENCARIAN */
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+#barPencarian  {
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.tombolcari {
+    padding: 12px;
+    background-color: #f4c418;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form input {
+    width: 600px;
+    height: 40px;
+    text-align: center;
+}
+
+tombolcari:hover {
+    background-color: #45a049;
+    transform: scale(0.9) rotate(5deg);
+    -webkit-transform: scale(0.9) rotate(5deg);
+    -moz-transform: scale(0.9) rotate(5deg);
+    -ms-transform: scale(0.9) rotate(5deg);
+    -o-transform: scale(0.9) rotate(5deg);
+}
+
+/* TOMBOL JOIN DISCORD */
+#joindc {
+    background-color: #f4c418;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+#joindc:hover {
+    transform: scale(1.1) rotate(5deg);
+    -webkit-transform: scale(1.1) rotate(5deg);
+    -moz-transform: scale(1.1) rotate(5deg);
+    -ms-transform: scale(1.1) rotate(5deg);
+    -o-transform: scale(1.1) rotate(5deg);
+    background-color: #45a049;
+}
+
+#joindc {
+    margin: 0 20px;
+}
+
+/* HERO */
+#hero {
+    background-color: #010100;
+    padding: 10px;
+    display: block;
+    justify-content: space-around;
+}
+
+.salam {
+    color: #f4c418;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 10px 0 10px;
+}
+
+.kontenhero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-image {
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.filmunggulan {
+    display: block;
+    color: #f4c418;
+    margin-right: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.filmunggulan {
+    width: 400px;
+}
+
+.film img {
+    width: 100px;
+    padding: 10px;
+}
+
+.thumbnail {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.film {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.film-list h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.film p a {
+    text-decoration: none;
+    color: #f4c418;
+}
+
+.juduldeskripsi h3 {
+    padding: 0 0 5px;
+}
+
+/* FILM */
+
+#film {
+    justify-content: space-between;
+}
+
+#film h1 {
+    color: #f4c418;
+    text-align: center;
+    margin: 20px auto;
+}
+.film-list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.film-list h2 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: white;
+}
+
+.film-list span {
+    font-size: 24px;
+    color: #f5c518; /* Warna kuning seperti IMDb */
+}
+
+.film-list p {
+    font-size: 14px;
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.film-list a {
+    font-size: 14px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.movie-slider {
+    display: flex;
+    align-items: center;
+}
+
+.kontenfilm {
+    display: flex;
+    scroll-behavior: smooth; /* Membuat scroll lebih mulus */
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 80vw; /* Sesuaikan ukuran kontainer */
+    align-content: center;
+    justify-content: space-between;
+}
+
+.kontenfilm::-webkit-scrollbar {
+    display: none; /* Menyembunyikan scrollbar */
+}
+
+.movie-card {
+    background-color: #222;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #333;
+}
+
+.movie-info {
+    padding: 10px;
+    color: white;
+}
+
+.movie-info h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+.movie-info .rating {
+    font-size: 14px;
+    color: #f5c518; /* Warna kuning untuk rating */
+}
+
+.movie-slider::-webkit-scrollbar {
+    display: none; /* Menyembunyikan scrollbar */
+}
+
+.movie-info button a {
+    text-decoration: none;
+    color: black;
+}
+
+.tontonsekarang {
+    background-color: #f4c418;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+button.prev {
+    left: 50px;
+}
+
+button.next {
+    right: 50px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: #45a049;
+}
+
+.kontenfilm {
+    width: 100% ;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    form {
+        display: none;
+    }
+
+    .ikon h1 {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        display: flex;
+    }
+    #joindc {
+        margin-right: 10px;
+    }
+    .logo {
+        padding: 0;
+    }
+}
