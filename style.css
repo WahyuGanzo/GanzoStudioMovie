@@ -368,25 +368,57 @@ button.prev:hover, button.next:hover {
     width: 100% ;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 768px){
     form {
         display: none;
     }
-
-    .ikon h1 {
-        display: none;
-    }
-
     header {
         justify-content: space-between;
-        align-items: center;
-        margin: 0;
-        display: flex;
     }
     #joindc {
-        margin-right: 10px;
+        margin-right: ;
     }
-    .logo {
-        padding: 0;
+    .kontenhero {
+        width: 760px;
+    }
+    #hero {
+        width: 760px;
+        display: block;
+        align-content: center;
+    }
+    .salam {
+        font-size: 1.5rem;
+        margin-left: 0;
+        margin-right: 110px;
+    }
+    .hero-image {
+        width: 600px;
+        margin: auto;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    #film {
+        width: 750px;
+    }
+    .filmunggulan {
+        display: none;
+    }
+    .film-list {
+        width: 750px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .kontenfilm {
+        display: flex;
+        flex-wrap: wrap;
+        width: 580px;
+        justify-content: space-evenly;
+    }
+    .movie-card img {
+        width: 150px;
+    }
+    .movie-card {
+        width: 200px;
+        margin: 0;
     }
 }
