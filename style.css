@@ -374,9 +374,10 @@ button.prev:hover, button.next:hover {
     }
     header {
         justify-content: space-between;
+        width: 100%;
     }
     #joindc {
-        margin-right: ;
+        margin-right: 150px;
     }
     .kontenhero {
         width: 760px;
@@ -420,5 +421,24 @@ button.prev:hover, button.next:hover {
     .movie-card {
         width: 200px;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        width: 100%;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+        margin-left: 70px;
+    }
+    #joindc {
+        margin: 0;
+    }
+    form {
+        display: none;
+    }
+    #film h1 {
+        margin-right: 100px;
     }
 }
