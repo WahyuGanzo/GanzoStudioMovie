@@ -232,11 +232,11 @@ tombolcari:hover {
     padding: 20px;
     margin-top: 20px;
     justify-content: start;
+    margin-left: 20px;
 }
 
 .storyline {
     width: 800px;
-    margin-left: 20px;
 }
 
 .storyline p {
@@ -254,7 +254,6 @@ tombolcari:hover {
 
 .genre {
     width: 800px;
-    margin-left: 20px;
 }
 
 .genre span {
@@ -288,7 +287,6 @@ tombolcari:hover {
 
 .details {
     width: 800px;
-    margin-left: 20px;
 }
 
 .details h2 span {
@@ -378,6 +376,10 @@ tombolcari:hover {
 
     .genre {
         width: 100%;
-    }
+    }    
 
+    #metadata {
+        margin-left: 10px;
+    }
+    
 }
