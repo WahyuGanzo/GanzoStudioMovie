@@ -308,7 +308,7 @@ tombolcari:hover {
     margin-top: 5px;
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
     .kontenvideo {
         display: block;
     }
@@ -338,7 +338,7 @@ tombolcari:hover {
     }
 }
 
-@media screen and (width: 480px) {
+@media screen and (max-width: 480px) {
     .ikon {
         padding: 0;
     }
