@@ -308,124 +308,32 @@ tombolcari:hover {
     margin-top: 5px;
 }
 
-@media screen and (width: 320px) {
-    form {
-        display: none;
-    }
-    .ikon h3 {
-        display: none;
-    }
-    .ikon {
-        padding: 5px;
-    }
-    #joindc {
-        margin-right: 0;
-        font-size: 0.6rem;
-    }
+@media screen and (width: 768px) {
     .kontenvideo {
         display: block;
-        align-content: center;
-        justify-content: center;
     }
-    .kontenvideo iframe {
-        width: 300px;
-        height: 170px;
-    }
-    .poster {
-        width: 80px;
-    }
-    .judulfilm h3 {
-        font-size: 0.8rem;
-    }
-    .judulfilm p {
-        font-size: 0.6rem;
-    }
-    .deskripsi h2 {
-        font-size: 1.4rem;
-        word-wrap: break-word;
-    }
-    .deskripsi p {
-        font-size: 0.6rem;
-    }
-    .info {
-        width: 300px;
-        align-content: center;
-    }
-    .storyline {
-        width: 270px;
-    }
-    .storyline p {
-        font-size: 0.7rem;
-        word-wrap: break-word;
-    }
-    .genre {
-        width: 270px;
-    }
-    .genre p {
-        font-size: 0.7rem;
-    }
-    .details p {
-        font-size: 0.6rem;
-    }
-}
 
-@media screen and (width: 375px) {
     form {
         display: none;
     }
-    .ikon h3 {
-        display: none;
-    }
-    .ikon {
-        padding: 5px;
-    }
-    #joindc {
-        margin-right: 0;
-        font-size: 0.6rem;
-    }
-    .kontenvideo {
-        display: block;
-        align-content: center;
-        justify-content: center;
-    }
+    
     .kontenvideo iframe {
-        width: 300px;
-        height: 170px;
+        width: 100%;
     }
-    .poster {
-        width: 80px;
-    }
-    .judulfilm h3 {
-        font-size: 0.8rem;
-    }
-    .judulfilm p {
-        font-size: 0.6rem;
-    }
-    .deskripsi h2 {
-        font-size: 1.4rem;
-        word-wrap: break-word;
-    }
-    .deskripsi p {
-        font-size: 0.6rem;
-    }
+    
     .info {
-        width: 300px;
-        align-content: center;
+        width: auto;
     }
+
     .storyline {
-        width: 270px;
+        width: 100%;
     }
-    .storyline p {
-        font-size: 0.7rem;
-        word-wrap: break-word;
+
+    .details {
+        width: 100%;
     }
+
     .genre {
-        width: 270px;
-    }
-    .genre p {
-        font-size: 0.7rem;
-    }
-    .details p {
-        font-size: 0.6rem;
+        width: 100%;
     }
 }
