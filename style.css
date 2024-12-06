@@ -75,7 +75,7 @@ form {
     gap: 5px;
 }
 
-#barPencarian  {
+#barPencarian {
     padding: 5px;
     border: none;
     font-size: 16px;
@@ -243,6 +243,7 @@ tombolcari:hover {
     text-align: center;
     margin: 20px auto;
 }
+
 .film-list {
     padding: 20px;
     max-width: 1200px;
@@ -259,7 +260,8 @@ tombolcari:hover {
 
 .film-list span {
     font-size: 24px;
-    color: #f5c518; /* Warna kuning seperti IMDb */
+    color: #f5c518;
+    /* Warna kuning seperti IMDb */
 }
 
 .film-list p {
@@ -281,17 +283,20 @@ tombolcari:hover {
 
 .kontenfilm {
     display: flex;
-    scroll-behavior: smooth; /* Membuat scroll lebih mulus */
+    scroll-behavior: smooth;
+    /* Membuat scroll lebih mulus */
     padding: 10px;
     flex-wrap: wrap;
     gap: 15px;
-    width: 80vw; /* Sesuaikan ukuran kontainer */
+    width: 80vw;
+    /* Sesuaikan ukuran kontainer */
     align-content: center;
     justify-content: space-between;
 }
 
 .kontenfilm::-webkit-scrollbar {
-    display: none; /* Menyembunyikan scrollbar */
+    display: none;
+    /* Menyembunyikan scrollbar */
 }
 
 .movie-card {
@@ -329,11 +334,13 @@ tombolcari:hover {
 
 .movie-info .rating {
     font-size: 14px;
-    color: #f5c518; /* Warna kuning untuk rating */
+    color: #f5c518;
+    /* Warna kuning untuk rating */
 }
 
 .movie-slider::-webkit-scrollbar {
-    display: none; /* Menyembunyikan scrollbar */
+    display: none;
+    /* Menyembunyikan scrollbar */
 }
 
 .movie-info button a {
@@ -360,68 +367,88 @@ button.next {
     right: 50px;
 }
 
-button.prev:hover, button.next:hover {
+button.prev:hover,
+button.next:hover {
     background-color: #45a049;
 }
 
 .kontenfilm {
-    width: 100% ;
+    width: 100%;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     form {
         display: none;
     }
+
     header {
         justify-content: space-between;
         width: 100%;
     }
+
     #joindc {
         margin-right: 150px;
     }
+
     .kontenhero {
         width: 760px;
     }
+
     #hero {
         width: 760px;
         display: block;
         align-content: center;
     }
+
     .salam {
         font-size: 1.5rem;
-        margin-left: 0;
-        margin-right: 110px;
     }
+
     .hero-image {
         width: 600px;
         margin: auto;
         margin-left: 0px;
         justify-content: center;
     }
+
     #film {
         width: 750px;
     }
+
     .filmunggulan {
         display: none;
     }
+
     .film-list {
         width: 750px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .movie-slider {
+        display: flex;
+        align-items: center;
+    }
+
     .kontenfilm {
         display: flex;
+        padding: 10px;
         flex-wrap: wrap;
-        width: 580px;
-        justify-content: space-evenly;
+        gap: 50px;
+        width: 100vw;
+        /* Sesuaikan ukuran kontainer */
+        align-content: center;
+        justify-content: space-around;
     }
+
     .movie-card img {
         width: 150px;
     }
+
     .movie-card {
         width: 200px;
         margin: 0;
     }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -432,12 +459,15 @@ button.prev:hover, button.next:hover {
         align-items: center;
         margin-left: 70px;
     }
+
     #joindc {
         margin: 0;
     }
+
     form {
         display: none;
     }
+
     #film h1 {
         margin-right: 100px;
     }

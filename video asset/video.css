@@ -164,11 +164,25 @@ tombolcari:hover {
     gap: 10px;
 }
 
+.kontenvideo iframe {
+    border: solid 2px #f4c418;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 .info {
     display: block;
     background-color: #333;
     padding: 5px;
     width: 400px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .info p {
@@ -203,6 +217,13 @@ tombolcari:hover {
 .deskripsi p {
     word-wrap: break-word;
     margin-top: 10px;
+}
+
+/* INTERNET KENCANG */
+.internetkencang {
+    color: #f4c418;
+    text-align: center;
+    padding: 10px;
 }
 
 /* METADATA */
