@@ -418,6 +418,7 @@ button.next:hover {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .movie-slider {
         display: flex;
         align-items: center;
@@ -448,10 +449,6 @@ button.next:hover {
 @media screen and (max-width: 480px) {
     header {
         width: 100%;
-        justify-content: space-around;
-        padding: 20px;
-        align-items: center;
-        margin-left: 70px;
     }
 
     #joindc {
@@ -462,7 +459,57 @@ button.next:hover {
         display: none;
     }
 
+    .ikon {
+        padding: 0;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .ikon h3 {
+        display: none;
+    }
+
     #film h1 {
         margin-right: 100px;
     }
+
+    #hero {
+        width: 100%;
+    }
+
+    .kontenhero {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    #film {
+        width: 100%;
+    }
+
+    .film-list {
+        width: 100%;
+    }
+    .movie-slider {
+        display: flex;
+        align-items: center;
+    }
+
+    .kontenfilm {
+        gap: 30px 0;
+    }
+
+    .movie-card img {
+        width: 100px;
+    }
+
+    .movie-card {
+        width: 150px;
+    }
+
+
 }
