@@ -386,10 +386,6 @@ button.next:hover {
         width: 100%;
     }
 
-    #joindc {
-        margin-right: 150px;
-    }
-
     .kontenhero {
         width: 760px;
     }
@@ -406,9 +402,7 @@ button.next:hover {
 
     .hero-image {
         width: 600px;
-        margin: auto;
-        margin-left: 0px;
-        justify-content: center;
+        margin: 0 auto;
     }
 
     #film {
