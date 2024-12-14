@@ -388,6 +388,10 @@ tombolcari:hover {
         padding: 0;
     }
 
+    #joindc {
+        margin: 0;
+    }
+
     .logo {
         width: 55px;
     }
